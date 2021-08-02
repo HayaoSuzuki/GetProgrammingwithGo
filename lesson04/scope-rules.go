@@ -5,9 +5,8 @@ import (
 	"math/rand"
 )
 
-var era = "AD"
-
 func main() {
+	var era = "AD"
 	year := 2018
 
 	switch month := rand.Intn(12) + 1; month {
