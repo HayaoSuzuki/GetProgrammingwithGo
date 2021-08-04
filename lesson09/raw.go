@@ -10,4 +10,5 @@ func main() {
 	upon you be peace`)
 	fmt.Printf("%v は%[1]T 型です\n", "文字列リテラル")
 	fmt.Printf("%v は%[1]T 型です\n", `raw文字列リテラル`)
+	fmt.Printf("%v %T", 'あ', 'あ')
 }
